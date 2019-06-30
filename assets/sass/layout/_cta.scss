@@ -1,0 +1,23 @@
+.cta {
+	background: $jelly-bean;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+
+	&__title {
+		color: $white;
+		font-weight: $bold;
+		font-size:	$large;
+		margin: 50px;
+		padding-top: 50px;
+	 	padding-bottom: 50px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		
+
+		&--color {
+			font-weight: $bold;
+			font-size: $medium;
+		}
+	}
+}

@@ -1,0 +1,48 @@
+.javiera {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+
+	&__img {
+		width: 600px;
+		padding-top: 100px;
+		margin: 0 auto;
+	}
+
+	&__title { 
+	color: gray;
+	font-weight: $bold;
+	font-size:	$large;
+	margin: 10px;
+	}
+
+	&__parrafo {
+		color: $granite-gray;
+		font-weight: $regular;
+        font-size: $medium;
+        text-align: center;
+        margin-top: 10px;
+	}
+}
+
+.container__nosotros {
+	background-color: $jelly-bean;
+	padding-top: 50px;
+ 	padding-bottom: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	&__title { 
+	color: gray;
+	font-weight: $bold;
+	font-size:	$xx-large;
+	margin: 0;
+	}
+}
+	
+.roberto_parrafo {
+	max-width: 800px;
+	width: 100%;
+	align-items: center;
+	margin: 0 auto;
+}

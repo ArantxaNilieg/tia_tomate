@@ -1,0 +1,25 @@
+.roberto {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+
+	&__img {
+		width: 600px;
+		padding-top: 100px;
+		margin: 0 auto;
+	}
+
+	&__title { 
+	color: gray;
+	font-weight: $bold;
+	font-size:	$large;
+	margin: 50px;
+	}
+
+	&__parrafo {
+		color: $granite-gray;
+		font-weight: $regular;
+        font-size: $medium;
+        text-align: center;
+        margin-top: 10px;
+	}
+}

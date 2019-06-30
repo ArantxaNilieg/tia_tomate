@@ -1,0 +1,41 @@
+.limache {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+
+	&__img {
+		width: 1300px;
+		padding-top: 100px;
+		margin: 0 auto;
+	}
+
+	&__title {
+		color: $granite-gray;
+		font-weight: $bold;
+		font-size: $large;
+		text-align: center;
+	}
+
+	&__parrafo {
+		color: $granite-gray;
+		font-weight: $regular;
+        font-size: $medium;
+        text-align: center;
+        margin: 0;
+        padding-bottom: 50px;
+        
+	}
+}
+
+.container__limache {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.container__parrafo {
+	width: 800px;
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+}
